@@ -1,0 +1,44 @@
+/*for navigation*/
+.topnavigation {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.topnavigation a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+}
+
+.topnavigation a:hover {
+    background-color: white;
+    color: black;
+}
+
+.topnavigation a.active {
+    background-color: green;
+    color: white;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+
+}
+
+h2 {
+    background-color: grey;
+    color: black;
+}
+
+table th, td {
+    border: 1px solid black;
+}
+
+.backgroundTable {
+    background-color: black;
+    color: white;
+    display: inline-block;
+}
