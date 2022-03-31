@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Friendship Zone</title>
+    <style media="screen">
+      .border {
+      display: inline-block;
+      border-style: solid;
+      border-color: red;
+      border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="20211223130938_IMG_2463.JPG" alt="Friends"  width="450" height="350">
+    <br>
+    <h1 style="text-align:center">FRIENDSHIP ZONE</h1>
+    <h2>Add your details to register</h2>
+    <form  method="post">
+      <label for="Name"><b>Name : </b></label>
+      <input type="text" name="name" value="Enter your name">
+      <br><br>
+      <label for="email"><b>Email : </b></label>
+      <input type="email" name="email" value=""><br><br>
+      <label for="age"><b>Age : </b></label>
+      <input type="number" name="age" value=""><br><br>
+      <label for="dob"><b>Birth Day : </b></label>
+      <input type="date" name="dob" value=""><br><br>
+      <b>Gender : </b>
+      <input type="radio" name="gender" value="M">
+      <label for="m">M</label>
+      <input type="radio"  name="gender" value="F">
+      <label for="f">F</label><br><br>
+      <label for="about"><b>About : </b></label>
+      <textarea name="about" rows="7" cols="60"></textarea><br><br>
+      <label for="phone"><b>Phone : </b></label>
+      <input type="tel" name="phone" value=""><br><br>
+      <b>Intrested in : </b>
+      <input type="checkbox" name="friendship" value="friendship">
+      <label for="friendship">Friendship</label>&nbsp;&nbsp;
+      <input type="checkbox" name="dating" value="friendship">
+      <label for="dating">Dating</label>&nbsp;
+      <b>Attachment : </b>
+      <input type="file" name="attachment"><br><br>
+      <span class="border">
+        <a href="RegistrationConfirmation.html"><button type="button" name="Register">Register</button></a>
+        <a href="RegistrationConfirmationforAdmin.html"><button type="button" name="Register as Admin">Register as Admin</button></a>
+      </span>
+    </form>
+  </body>
+</html>
