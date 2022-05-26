@@ -1,0 +1,108 @@
+/*for navigation*/
+.topnavigation {
+    background-color: rgb(16, 14, 121);
+    overflow: hidden;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius:10px;
+}
+
+.topnavigation a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius:10px;
+}
+
+.topnavigation a:hover {
+    background-color: white;
+    color: black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius:10px;
+}
+
+.topnavigation a.active {
+    background-color: rgb(218, 187, 12);
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius:10px;
+}
+
+.heading {
+    background-color: rgb(3, 30, 80);
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius:10px;
+
+}
+
+
+
+table th, td {
+    border: 1px solid black;
+}
+
+.backgroundTable {
+    background-color: black;
+    color: white;
+    display: inline-block;
+}
+
+body {
+    background-color: aqua;
+}
+
+.headingAboutUs {
+    background-color: rgb(3, 30, 80);
+    color: white;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius:10px;
+}
+
+.contact {
+    background-color: rgb(3, 30, 80);
+    clear: both;
+    height: 20px;
+    width: 57px;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius:10px;
+}
+
+.goToHome {
+    text-align: center;
+    background-color: rgb(212, 196, 47);
+    color: white;
+    width: 150px;
+    height: 35px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius:10px;
+}
+
+.tableHeadings {
+    background-color: rgb(243, 243, 253);
+    text-align: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
