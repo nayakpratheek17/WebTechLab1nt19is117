@@ -1,7 +1,11 @@
 /*for navigation*/
 .topnavigation {
-    background-color: #333;
+    background-color: rgb(16, 14, 121);
     overflow: hidden;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius:10px;
 }
 
 .topnavigation a {
@@ -10,28 +14,41 @@
     text-align: center;
     padding: 14px 16px;
     font-size: 17px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius:10px;
 }
 
 .topnavigation a:hover {
     background-color: white;
     color: black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius:10px;
 }
 
 .topnavigation a.active {
-    background-color: green;
+    background-color: rgb(218, 187, 12);
     color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius:10px;
 }
 
-h1 {
-    background-color: black;
+.heading {
+    background-color: rgb(3, 30, 80);
     color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius:10px;
 
 }
 
-h2 {
-    background-color: grey;
-    color: black;
-}
+
 
 table th, td {
     border: 1px solid black;
@@ -42,3 +59,31 @@ table th, td {
     color: white;
     display: inline-block;
 }
+
+body {
+    background-color: aqua;
+}
+
+.headingAboutUs {
+    background-color: rgb(3, 30, 80);
+    color: white;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius:10px;
+}
+
+.contact {
+    background-color: rgb(3, 30, 80);
+    background-size: auto;
+    background-repeat: no-repeat;
+    clear: both;
+    height: auto;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius:10px;
+}
+
