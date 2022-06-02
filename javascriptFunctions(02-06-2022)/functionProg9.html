@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //charAt function:
+      var fun = "html css node.js finction";
+      alert(fun.charAt(3));
+
+      //concate function:
+      var a = prompt("Enter the text:");
+      var mess = a.concat(" is a ", " good person ");
+      alert(mess);
+
+      //string length
+      var p = prompt("Enter the text to find the length of the string:");
+      var mess = p.length;
+      alert(mess);
+
+      //string to uppercase
+      var q = prompt("Enter the text to convert to uppercase:");
+      var mess = q.toUpperCase();
+      alert(mess);
+
+      //string to lowercase
+      var r = prompt("Enter the text to convert to lowercase:");
+      var mess = r.toLowerCase();
+      alert(mess);
+
+      //string slice
+      var s = prompt("Enter the text to slice the string:");
+      var x = Number(prompt("Enter the number:"));
+      var y = Number(prompt("Enter the number:"));
+      var mess = s.slice(x, y);
+      alert(mess);
+
+      //substring
+      var t = prompt("Enter the text to get substring:");
+      var m = Number(prompt("Enter the number:"));
+      var n = Number(prompt("Enter the number:"));
+      var mess = t.substr(m, n);
+      alert(mess);
+
+      //replace
+      var u = prompt("Enter the text:");
+      var v = prompt("Enter the word you want to replace:");
+      var w = prompt("Enter the replaced word:");
+      var mess = u.replace(v, w);
+      alert(mess);
+    </script>
+  </body>
+</html>

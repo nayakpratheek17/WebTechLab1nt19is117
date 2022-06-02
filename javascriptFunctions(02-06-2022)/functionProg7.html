@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const isDisarium = (num) => {
+        const res = String(num)
+          .split("")
+          .reduce((acc, val, ind) => {
+            acc += Math.pow(+val, ind + 1);
+            return acc;
+          }, 0);
+        return res === num;
+      };
+      for (var i = 1; i <= 100; i++) {
+        if (isDisarium(i)) document.write(i + "<br>");
+      }
+    </script>
+  </body>
+</html>

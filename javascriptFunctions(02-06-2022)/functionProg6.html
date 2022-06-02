@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //To capitalize the first letter of each word in a string.
+      const r = "hello world";
+      let c = r[0].toUpperCase() + r.substring(1);
+      document.write(c);
+
+      //To insert a string within a string at a particular position
+      insert = function insert(main_string, ins_string, pos) {
+        if (typeof pos == "undefined") {
+          pos = 0;
+        }
+        if (typeof ins_string == "undefined") {
+          ins_string = "";
+        }
+        return main_string.slice(0, pos) + ins_string + main_string.slice(pos);
+      };
+      console.log(insert("We are doing some exercises."));
+      console.log(insert("We are doing some exercises.", "JavaScript "));
+      console.log(insert("We are doing some exercises.", "JavaScript ", 18));
+
+      //To check whether an `input` is a string or not
+      function isString(value) {
+        return typeof value === "string" || value instanceof String;
+      }
+      document.write(isString("red"));
+
+      //To split a string and convert it into an array of words.
+      const mySentence =
+        "To insert a string within a string at a particular position";
+      const words = mySentence.split(" ");
+      document.write(words);
+    </script>
+  </body>
+</html>
