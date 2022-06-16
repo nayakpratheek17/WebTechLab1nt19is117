@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        string = "HEyThereHowRYoU!";
+        document.write(string);
+        document.write("1.LENGTH<br>2.TOUPPERCASE<br>3.TOLOWERCASE<br>4.ISLOWERCASE<br>5.ISUPPERCASE<br>")
+        choice = prompt("Enter the OPTION");
+        switch(choice) {
+            case '1': document.write(string.length); break;
+            case '2': document.write(string.toUpperCase()); break;
+            case '3': document.write(string.toLowerCase()); break;
+            case '4': document.write(string.isLowerCase()); break;
+            case '5': document.write(string.isUppercase()); break;
+            default: document.write("NOT VALID");
+        }
+    </script>
+</body>
+</html>
