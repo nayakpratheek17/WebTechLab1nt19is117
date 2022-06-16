@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var listOfMarks = [12,18,25,24,2,5,18,20,20,21];
+        var sum = 0;
+        for(let i = 0; i < listOfMarks.length; i++) {
+            sum += listOfMarks[i];
+        }
+        var average = sum / listOfMarks.length;
+        var count = 0;
+        for(let i = 0; i < listOfMarks.length; i++) {
+            if(listOfMarks[i] > average) {
+                count += 1;
+            }
+        }
+        var moreThanAveragePercent = count * 100 / listOfMarks.length;
+        document.write(moreThanAveragePercent + "<br>");
+        count = 0;
+        for(let i = 0; i < 26; i++) {
+            for(let j = 0; j < listOfMarks.length; j++) {
+                if(listOfMarks[j] == i)
+                    count += 1;
+            }
+            document.write(count + " ");
+            count = 0;
+        }
+    </script>
+</body>
+</html>
